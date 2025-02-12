@@ -4,6 +4,8 @@ k9s
 kubectl get pods -A
 kubectl apply -f ./deployment.yaml
 kubectl delete -f ./deployment.yaml
+kubectl apply -f ./deployment.yaml
+kubectl get pods -A
 ./mvnw spring-boot:build-image  
 docker images  
 docker tag demo:0.0.1-SNAPSHOT nizampatnamvamshi/demo:0.0.1-SNAPSHOT
@@ -14,6 +16,7 @@ docker run demo:0.0.1-SNAPSHOT
 minikube start --cni=calico  
 ubectl run --rm --stdin --image=hello-world --restart=Never --request-timeout=30 test-pod
 minikube dashboard  
+minikube node add
 echo mongopassword | base64
 echo mongouser | base64      
 git config --global user.name " "
