@@ -25,11 +25,14 @@ git config --global user.email “@gmail.com”
 git config -l --show-origin
 https://start.spring.io
 
-
 AI BOOKS:
 1. Build a large language model from scratch by Sebastian Raschka.
 2. Building LLMs for production by Louie Peters.
 3. RAG-Driven Generative AI by Denis Rothman
 4. AL Engineering by Chip Huyen
 
-
+Java Starting Places
+1. https://openjdk.org
+2. https://dev.java
+3. https://inside.java
+4. https://www.youtube.com/java
