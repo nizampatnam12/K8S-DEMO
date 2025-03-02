@@ -36,3 +36,9 @@ Java Starting Places
 2. https://dev.java
 3. https://inside.java
 4. https://www.youtube.com/java
+
+Linux commands:
+ollama list
+free -h
+ollama run llama2:7b --verbose
+df -h
